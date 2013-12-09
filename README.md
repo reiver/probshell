@@ -2,6 +2,11 @@
 
 **probshell** is a simple *probability calculator*, with a command-line interface (CLI)
 
+(I have seen some people call this type of thing a REPL (read–eval–print loop).)
+
+_probshell_ also supports _exporting_ and _importing_, so that it has a kind of scripting language;
+although perhaps it would be more accurate to describe it as a (text-based) database.
+
 ## Example
 Here is an example _probshell_ session:
 ```
