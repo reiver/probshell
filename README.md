@@ -1,6 +1,30 @@
 # probshell
 
-**probshell** is a simple *probability calculator*.
+**probshell** is a simple *probability calculator*, with a command-line interface (CLI)
+
+## Example
+Here is an example _probshell_ session:
+```
+¿> P(H):=0.01
+¡ P(H):=1/100
+∴ P(¬A)=99/100
+
+¿> P(D|H):=0.9
+¡ P(D|H):=9/10
+∴ P(¬D|H)=1/10
+
+¿> P(¬D|¬H):=0.9
+¡ P(¬D|¬H):=9/10
+∴ P(D|¬H)=1/10
+∴ P(D)=27/250
+∴ P(¬D)=223/250
+∴ P(H|D)=1/12
+∴ P(¬H|D)=11/12
+∴ P(H|¬D)=1/892
+∴ P(¬H|¬D)=891/892
+
+¿> exit
+```
 
 ## Notation
 
