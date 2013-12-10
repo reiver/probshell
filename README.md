@@ -12,7 +12,7 @@ Here is an example _probshell_ session:
 ```
 ¿> P(H):=0.01
 ¡ P(H):=1/100
-∴ P(¬A)=99/100
+∴ P(¬H)=99/100
 
 ¿> P(D|H):=0.9
 ¡ P(D|H):=9/10
